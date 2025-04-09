@@ -1,0 +1,1 @@
+{"root":["./src/apiDocs.ts","./src/db.ts","./src/index.ts","./src/middlewares/authmiddleware.ts","./src/middlewares/errorHandler.ts","./src/routes/authRoutes.ts","./src/routes/gadgetRoutes.ts","./src/utils/asyncHandler.ts"],"version":"5.8.3"}
