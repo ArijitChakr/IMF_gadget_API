@@ -18,7 +18,10 @@ const options: swaggerJsdoc.Options = {
       },
     },
     security: [{ bearerAuth: [] }],
-    servers: [{ url: "http://localhost:3000" }],
+    servers: [
+      { url: "https://api-imf.onrender.com" },
+      { url: "http://localhost:3000" },
+    ],
   },
   apis: ["./src/routes/*.ts", "./src/index.ts"],
 };

@@ -2,6 +2,14 @@
 
 The **IMF Gadget API** is a secure API built for the Impossible Missions Force (IMF) to manage their gadgets. This API is developed with TypeScript, Node.js, Express, PostgreSQL, and Prisma. It features robust security measures including JWT-based authentication and authorization, as well as additional security enhancements like Helmet, CORS, and rate limiting. The API also includes comprehensive error handling.
 
+## Live Demo
+
+You can try out the API at [https://api-imf.onrender.com](https://api-imf.onrender.com).
+
+## API Documentation
+
+The API documentation is available at [https://api-imf.onrender.com/docs](https://api-imf.onrender.com/docs).
+
 ## Features
 
 - **Authentication & Authorization**:
