@@ -20,7 +20,7 @@ const generateCodename = (): string => {
   const uniqueSuffix = uuidv4().split("-")[0].toUpperCase();
   const randomName = codenames[Math.floor(Math.random() * codenames.length)];
 
-  return `${randomName}-  ${uniqueSuffix}`;
+  return `${randomName}-${uniqueSuffix}`;
 };
 
 router.use(authMiddleware as RequestHandler);
